@@ -1,1 +1,112 @@
-# arjayjapitana74-droid-
+<h1 align="center">Hi, I'm Arjay Japitana</h1>
+
+<p align="center">
+  Information Systems student • aspiring Systems &amp; Web Developer
+</p>
+
+<p align="center">
+  <a href="https://github.com/arjayjapitana74-droid?tab=repositories">
+    <img alt="Repositories" src="https://img.shields.io/badge/Public_Repos-1-1f6feb?style=flat-square&logo=github&logoColor=white">
+  </a>
+  <img alt="Focus" src="https://img.shields.io/badge/Focus-Web_%26_Systems_Development-5a5a5a?style=flat-square">
+  <img alt="Status" src="https://img.shields.io/badge/Open_to-Learning_%26_Collaboration-2ea043?style=flat-square">
+</p>
+
+---
+
+## About Me
+
+I'm an Information Systems student who enjoys turning ideas into working software. Most of what you'll find here are hands-on builds where I'm practicing the full loop — designing the UI, wiring up state, connecting a backend, and shipping something that runs in a browser.
+
+Right now I'm most comfortable on the web side (React + Vite + Tailwind), and I'm slowly stretching into fuller stack territory with PHP and MySQL through a real project (`nurse1`).
+
+---
+
+## Tech Stack
+
+**Languages**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
+
+**Backend &amp; Data**
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Tooling**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+---
+
+## Projects &amp; Builds
+
+### [Portfolio](https://github.com/arjayjapitana74-droid/Portfolio)
+My developer portfolio site — a multi-page showcase of my skills, projects, and experience. It includes dedicated reference pages for each of the languages I've studied (C, HTML, CSS, JavaScript, Java, Python, Visual Basic), with animated navigation and interactive UI touches.
+
+Built with **HTML**, **CSS**, and **JavaScript**, styled with **Bootstrap** and **Font Awesome**, and animated with **GSAP**.
+
+`HTML` `CSS` `JavaScript` `Bootstrap` `GSAP`
+
+> More projects are in development in private repositories and will be released here as they mature.
+
+---
+
+## Currently Learning
+
+- Deeper **React + TypeScript** patterns (hooks, forms with `react-hook-form` + `zod`, state with `@tanstack/react-query`)
+- Building **full-stack apps** end-to-end with PHP and MySQL
+- Component-driven UI with **shadcn/ui** and accessible **Radix** primitives
+- Motion &amp; interaction design with **GSAP** and **Framer Motion**
+- Deployment workflows on **Vercel**
+
+---
+
+## Goals
+
+- Finish my Information Systems degree with a strong portfolio of shipped projects
+- Grow into a well-rounded **Systems / Web Developer** who can own a feature from database to UI
+- Contribute to real-world projects and collaborate with other developers
+- Keep the habit of building in public — one small, finished thing at a time
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img alt="Arjay's contribution graph" src="https://ghchart.rshah.org/arjayjapitana74-droid" />
+</p>
+
+<p align="center">
+  <img alt="GitHub streak stats" src="https://streak-stats.demolab.com/?user=arjayjapitana74-droid&hide_border=true" />
+</p>
+
+---
+
+## Contact
+
+- GitHub: [@arjayjapitana74-droid](https://github.com/arjayjapitana74-droid)
+- Open an [issue on any of my repos](https://github.com/arjayjapitana74-droid?tab=repositories) if you'd like to reach out about a project
+
+<sub>Thanks for stopping by — feedback and collaboration are always welcome.</sub>
