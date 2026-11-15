@@ -39,9 +39,9 @@ jobs:
                 contributionsCollection { contributionCalendar { totalContributions } }
               }
             }' --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
-          formatted=$(echo "$total" | sed -E ':a;s/^([0-9]+)([0-9]{3})/,/;ta')
+          formatted=$(echo "$total" | sed -E ':a;s/^([0-9]+)([0-9]{3})/\1,\2/;ta')
           echo "Contributions in the last year: $formatted"
-          sed -i -E "s|(<!-- CONTRIBUTIONS:START -->)[^<]*(<!-- CONTRIBUTIONS:END -->)|${formatted}|" README.md
+          sed -i -E "s|(<!-- CONTRIBUTIONS:START -->)[^<]*(<!-- CONTRIBUTIONS:END -->)|\1${formatted}\2|" README.md
 
       - name: Commit contribution graph
         run: |
