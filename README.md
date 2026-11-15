@@ -18,7 +18,7 @@
 
 I'm an Information Systems student who enjoys turning ideas into working software. Most of what you'll find here are hands-on builds where I'm practicing the full loop — designing the UI, wiring up state, connecting a backend, and shipping something that runs in a browser.
 
-Right now I'm most comfortable on the web side (React + Vite + Tailwind), and I'm slowly stretching into fuller stack territory with PHP and MySQL through a real project (`nurse1`).
+Right now I'm most comfortable on the web side (React + Vite + Tailwind), and I'm slowly stretching into fuller stack territory with PHP and MySQL through a real project (`nurse1`). On the automation side, I build **Telegram bots in Python** and wire up workflows with **n8n**, **Make**, and **GoHighLevel**.
 
 ---
 
@@ -32,6 +32,7 @@ Right now I'm most comfortable on the web side (React + Vite + Tailwind), and I'
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **Frontend**
 
@@ -54,6 +55,7 @@ Right now I'm most comfortable on the web side (React + Vite + Tailwind), and I'
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![Make](https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=make&logoColor=white)
 ![GoHighLevel](https://img.shields.io/badge/GoHighLevel-1A73E8?style=flat-square&logoColor=white)
+![Telegram Bots](https://img.shields.io/badge/Telegram_Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 
 **Tooling**
 
