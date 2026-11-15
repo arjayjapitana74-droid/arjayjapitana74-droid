@@ -1,0 +1,53 @@
+name: Update contribution graph
+
+on:
+  schedule:
+    - cron: "15 3 * * *" # Run every day at 03:15
+  push:
+    paths:
+      - ".github/workflows/contribution-graph.yml" # Run any time this file is modified
+  workflow_dispatch: # Run manually from the Actions tab
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Generate contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/contribution-graph.svg
+            profile/contribution-graph-dark.svg?palette=github-dark
+
+      - name: Update contribution count in README
+        env:
+          GH_TOKEN: ${{ github.token }}
+          USER: ${{ github.repository_owner }}
+        run: |
+          total=$(gh api graphql -f login="$USER" -f query='
+            query($login: String!) {
+              user(login: $login) {
+                contributionsCollection { contributionCalendar { totalContributions } }
+              }
+            }' --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          formatted=$(echo "$total" | sed -E ':a;s/^([0-9]+)([0-9]{3})/,/;ta')
+          echo "Contributions in the last year: $formatted"
+          sed -i -E "s|(<!-- CONTRIBUTIONS:START -->)[^<]*(<!-- CONTRIBUTIONS:END -->)|${formatted}|" README.md
+
+      - name: Commit contribution graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/contribution-graph.svg profile/contribution-graph-dark.svg README.md
+          git commit -m "Update contribution graph" || exit 0
+          git pull --rebase
+          git push

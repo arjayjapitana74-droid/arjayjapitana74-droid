@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/arjayjapitana74-droid?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Public_Repos-1-1f6feb?style=flat-square&logo=github&logoColor=white">
+    <img alt="Repositories" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Farjayjapitana74-droid&query=%24.public_repos&label=Public%20Repos&color=1f6feb&style=flat-square&logo=github&logoColor=white">
   </a>
   <img alt="Focus" src="https://img.shields.io/badge/Focus-Web_%26_Systems_Development-5a5a5a?style=flat-square">
   <img alt="Status" src="https://img.shields.io/badge/Open_to-Learning_%26_Collaboration-2ea043?style=flat-square">
@@ -95,12 +95,26 @@ Built with **HTML**, **CSS**, and **JavaScript**, styled with **Bootstrap** and 
 ## GitHub Activity
 
 <p align="center">
-  <img alt="Arjay's contribution graph" src="https://ghchart.rshah.org/arjayjapitana74-droid" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile/streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="profile/streak.svg" />
+    <img alt="GitHub streak stats" src="profile/streak.svg" />
+  </picture>
 </p>
 
 <p align="center">
-  <img alt="GitHub streak stats" src="https://streak-stats.demolab.com/?user=arjayjapitana74-droid&hide_border=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile/contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="profile/contribution-graph.svg" />
+    <img alt="Arjay's contribution graph" src="profile/contribution-graph.svg" />
+  </picture>
 </p>
+
+<p align="center">
+  <b><!-- CONTRIBUTIONS:START -->1,241<!-- CONTRIBUTIONS:END --> contributions in the last year</b>
+</p>
+
+<p align="center"><sub>Stats and graph are regenerated daily by GitHub Actions.</sub></p>
 
 ---
 
