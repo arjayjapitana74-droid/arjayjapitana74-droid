@@ -49,6 +49,12 @@ Right now I'm most comfortable on the web side (React + Vite + Tailwind), and I'
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
+**Automation**
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Make](https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=make&logoColor=white)
+![GoHighLevel](https://img.shields.io/badge/GoHighLevel-1A73E8?style=flat-square&logoColor=white)
+
 **Tooling**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
